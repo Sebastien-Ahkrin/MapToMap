@@ -1,0 +1,30 @@
+{
+  "name": "maptomap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/",
+  "scripts": {
+    "start-dev": "babel-node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebastien-Ahkrin/MapToMap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebastien-Ahkrin/MapToMap/issues"
+  },
+  "homepage": "https://github.com/Sebastien-Ahkrin/MapToMap#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.47",
+    "@babel/core": "^7.0.0-beta.47",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47",
+    "@babel/node": "^7.0.0-beta.49"
+  },
+  "dependencies": {
+    "canvas": "^2.0.0-alpha.12",
+    "dotenv": "^6.0.0"
+  }
+}
